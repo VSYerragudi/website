@@ -9,29 +9,184 @@
         dataLayer.push(arguments)
       }
       gtag('js', new Date())
-
       gtag('config', 'G-L5L2HC12CP')
     </script>
+
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Venkat - Mentor, Innovator, AI Solution Architect" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Preload critical assets -->
+    <link rel="preload" href="/media/Venkat.webp" as="image" type="image/webp" fetchpriority="high" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Primary Meta Tags -->
+    <title>Venkat Yerragudi — Teacher. Engineer. Builder.</title>
+    <meta
+      name="title"
+      content="Venkat Yerragudi — Teacher. Engineer. Builder."
+    />
+    <meta
+      name="description"
+      content="Venkat Yerragudi — AI Solution Architect, former CSE professor, and founder of Ceralume Labs. Transforming how engineering graduates think, build, and lead. Based in Hyderabad."
+    />
     <meta
       name="keywords"
-      content="AI, Machine Learning, Mentoring, Data Science, MLOps, System Architecture, Ceralume Labs"
+      content="Venkat Yerragudi, AI mentor Hyderabad, engineering education, CSE career mentorship, Ceralume Labs, tech mentor India, AI Solution Architect"
     />
     <meta name="author" content="Venkatanatha Sarma Yerragudi" />
-    <title>Venkat - AI Solution Architect & Mentor</title>
-    <!-- Preload critical fonts -->
-    <link rel="preload" href="/fonts/DMSans9pt-Thin.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/fonts/InstrumentSerif-Regular.woff2" as="font" type="font/woff2" crossorigin />
-    <script type="module" crossorigin src="/assets/index-DsUPdrRk.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/react-vendor-Cgg2GOmP.js">
-    <link rel="modulepreload" crossorigin href="/assets/animation-BPi-zikC.js">
-    <link rel="modulepreload" crossorigin href="/assets/ui-CWdsbZnx.js">
-    <link rel="stylesheet" crossorigin href="/assets/index-D0-sjC5d.css">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yerragudi.in/" />
+    <meta
+      property="og:title"
+      content="Venkat Yerragudi — Teacher. Engineer. Builder."
+    />
+    <meta
+      property="og:description"
+      content="AI Solution Architect, former CSE professor, and founder of Ceralume Labs. Transforming how engineering graduates think, build, and lead."
+    />
+    <meta property="og:image" content="https://yerragudi.in/media/Venkat.webp" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://yerragudi.in/" />
+    <meta
+      property="twitter:title"
+      content="Venkat Yerragudi — Teacher. Engineer. Builder."
+    />
+    <meta
+      property="twitter:description"
+      content="AI Solution Architect, former CSE professor, and founder of Ceralume Labs. Transforming how engineering graduates think, build, and lead."
+    />
+    <meta
+      property="twitter:image"
+      content="https://yerragudi.in/media/Venkat.webp"
+    />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yerragudi.in/" />
+
+    <!-- Google Fonts: Source Serif 4 + Inter (non-blocking) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <!-- Schema.org Person structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Venkatanatha Sarma Yerragudi",
+        "alternateName": "Venkat Yerragudi",
+        "jobTitle": "AI Solution Architect & Founder",
+        "description": "Former CSE professor, AI Solution Architect, and founder of Ceralume Labs. Transforming how engineering graduates think, build, and lead.",
+        "url": "https://yerragudi.in",
+        "image": "https://yerragudi.in/media/Venkat.webp",
+        "sameAs": [
+          "https://www.linkedin.com/in/vsyerragudi"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Ceralume Labs",
+          "url": "https://ceralumelabs.com"
+        },
+        "knowsAbout": [
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Data Science",
+          "MLOps",
+          "System Architecture",
+          "Engineering Education"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Hyderabad",
+          "addressRegion": "Telangana",
+          "addressCountry": "India"
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-Sw51LpgN.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/style-BtPqpmHh.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Static skeleton for instant FCP/LCP while React loads -->
+      <style>
+        .skeleton-hero {
+          min-height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 5rem 1rem;
+          background: #faf9f7;
+        }
+        .skeleton-container {
+          max-width: 72rem;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 3rem;
+          align-items: center;
+        }
+        @media (min-width: 1024px) {
+          .skeleton-container {
+            grid-template-columns: 7fr 5fr;
+          }
+        }
+        .skeleton-content { order: 2; }
+        .skeleton-image { order: 1; display: flex; justify-content: center; }
+        @media (min-width: 1024px) {
+          .skeleton-content { order: 1; }
+          .skeleton-image { order: 2; justify-content: flex-end; }
+        }
+        .skeleton-name {
+          font-family: 'Source Serif 4', Georgia, serif;
+          font-size: clamp(2.25rem, 5vw, 3.75rem);
+          font-weight: 600;
+          color: #1a1a2e;
+          margin: 0;
+        }
+        .skeleton-identity {
+          font-family: 'Source Serif 4', Georgia, serif;
+          font-size: clamp(1.5rem, 3vw, 1.875rem);
+          color: #d4a843;
+          margin-top: 1rem;
+        }
+        .skeleton-img {
+          width: 16rem;
+          height: 20rem;
+          border-radius: 1rem;
+          object-fit: cover;
+          object-position: top;
+        }
+        @media (min-width: 640px) {
+          .skeleton-img { width: 18rem; height: 24rem; }
+        }
+      </style>
+      <div class="skeleton-hero">
+        <div class="skeleton-container">
+          <div class="skeleton-content">
+            <h1 class="skeleton-name">Venkat Yerragudi</h1>
+            <p class="skeleton-identity">Teacher. Engineer. Builder.</p>
+          </div>
+          <div class="skeleton-image">
+            <img src="/media/Venkat.webp" alt="Venkat Yerragudi" class="skeleton-img" fetchpriority="high" />
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
